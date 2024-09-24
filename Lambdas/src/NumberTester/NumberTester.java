@@ -7,8 +7,10 @@ public class NumberTester implements NumberTest {
    private NumberTest palindromeTester;
 
 
-   public NumberTester(String fileName){
 
+
+   public NumberTester(String fileName){
+      fileName="text.csv";
    }
 
    public void setOddEvenTester(NumberTest oddTester){
