@@ -13,14 +13,12 @@ public class NumberTester implements NumberTest {
    private NumberTest palindromeTester;
 
    //---------------------------------------
-   List<Integer> firstNumberList = new ArrayList<>();
-   List<Integer> secondNumberList = new ArrayList<>();
 
    private final String fileName;
 
 
    public NumberTester(String fileName) {
-      this.fileName = "text.csv";
+      this.fileName = fileName;
    }
 
    public void setOddEvenTester(NumberTest oddTester) {
