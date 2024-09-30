@@ -7,22 +7,22 @@ public class RationalCalculator extends AbstractCalculator {
     }
 
     @Override
-    public Number add(Number a, Number b) {
+    public CustomNumber add(CustomNumber a, CustomNumber b) {
         return add.calc(a, b);
     }
 
     @Override
-    public Number subtract(Number a, Number b) {
+    public CustomNumber subtract(CustomNumber a, CustomNumber b) {
         return subtract.calc(a, b);
     }
 
     @Override
-    public Number multiply(Number a, Number b) {
+    public CustomNumber multiply(CustomNumber a, CustomNumber b) {
         return multiply.calc(a, b);
     }
 
     @Override
-    public Number divide(Number a, Number b) {
+    public CustomNumber divide(CustomNumber a, CustomNumber b) {
         return divide.calc(a, b);
     }
 }

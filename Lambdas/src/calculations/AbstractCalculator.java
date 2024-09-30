@@ -16,12 +16,12 @@ public abstract class AbstractCalculator {
         this.divide = divide;
     }
 
-    public abstract Number add(Number a, Number b);
+    public abstract CustomNumber add(CustomNumber a, CustomNumber b);
 
-    public abstract Number subtract(Number a, Number b);
+    public abstract CustomNumber subtract(CustomNumber a, CustomNumber b);
 
-    public abstract Number multiply(Number a, Number b);
+    public abstract CustomNumber multiply(CustomNumber a, CustomNumber b);
 
-    public abstract Number divide(Number a, Number b);
+    public abstract CustomNumber divide(CustomNumber a, CustomNumber b);
 }
 

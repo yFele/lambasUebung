@@ -1,5 +1,5 @@
 package calculations;
 
 public interface CalculationOperation {
-    Number calc(Number x, Number y);
+    CustomNumber calc(CustomNumber x, CustomNumber y);
 }

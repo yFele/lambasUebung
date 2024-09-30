@@ -1,9 +1,14 @@
 package calculations;
 
-public class Number {
+public class CustomNumber {
 
     private double a;
     private double b;
+
+    public CustomNumber(double a, double b) {
+        this.a = a;
+        this.b = b;
+    }
 
     public double getA() {
         return a;
