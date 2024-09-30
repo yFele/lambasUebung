@@ -1,6 +1,13 @@
 import NumberTester.NumberTester;
+import calculations.ComplexCalculator;
+import calculations.RationalCalculator;
+import calculations.VectorCalculator;
 
 public class Main {
+
+    static RationalCalculator rationalCalculator;
+    static ComplexCalculator complexCalculator;
+    static VectorCalculator vectorCalculator;
 
     public static void main(String[] args) {
     numberTester();
